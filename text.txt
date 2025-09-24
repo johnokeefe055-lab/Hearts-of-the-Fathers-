@@ -1,0 +1,73 @@
+Welcome to Online Text Editor (formerly EditPad.org) - your online plain text editor. Enter or paste your text here. To download and save it, click on the button below.<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Church Engaged</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('hero-image.jpg');">
+    <div class="absolute inset-0 bg-black/60 flex items-center justify-center">
+      <div class="text-center text-white max-w-3xl px-6">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">The Church Must Rise</h1>
+        <p class="text-lg md:text-xl">“We can no longer remain silent. We must engage our culture, our schools, and our governments with the gospel of Jesus Christ.”</p>
+        <a href="#message" class="mt-8 inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-xl">Read the Message</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section id="message" class="py-16 px-8 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold mb-6">A Call to Action</h2>
+    <p class="leading-relaxed text-lg mb-6">
+      When COVID struck, we learned something. When Charlie Kirk was murdered, we learned something else: 
+      the Church of God cannot stay out of the public sphere. We cannot remain silent, fearing politics or ridicule.
+      The gospel must leave the walls of the church and enter schools, governments, and communities.
+    </p>
+    <img src="church-community.jpg" alt="Church community" class="rounded-xl shadow-lg mx-auto mb-10" />
+  </section>
+
+  <!-- Ephesians Teaching -->
+  <section class="py-16 px-8 md:px-20 bg-gray-50">
+    <h2 class="text-3xl font-bold mb-6">Rooted in Scripture</h2>
+    <p class="leading-relaxed text-lg mb-6">
+      The book of Ephesians reveals our identity, our mission, and our spiritual battle. From our calling as God’s workmanship 
+      (Eph. 2:10) to declaring His wisdom to the powers in heavenly places (Eph. 3:10), Paul reminds us that we are in a war 
+      against darkness—and we must put on the full armor of God.
+    </p>
+    <img src="bible-open.jpg" alt="Bible open" class="rounded-xl shadow-lg mx-auto mb-10" />
+  </section>
+
+  <!-- Cultural Engagement -->
+  <section class="py-16 px-8 md:px-20 bg-white">
+    <h2 class="text-3xl font-bold mb-6">Engaging the Culture</h2>
+    <p class="leading-relaxed text-lg mb-6">
+      Like Paul in Ephesus, we confront idols and ideologies of our day. We cannot surrender our children, our schools, or our 
+      governments to darkness. We must boldly declare: “No—you will not have our sons and daughters. No—you will not corrupt 
+      our cities.” The Church belongs in the public square as salt and light.
+    </p>
+    <img src="city-street.jpg" alt="City street with people" class="rounded-xl shadow-lg mx-auto mb-10" />
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-16 px-8 md:px-20 bg-red-600 text-white text-center">
+    <h2 class="text-3xl font-bold mb-6">The Time is Now</h2>
+    <p class="leading-relaxed text-lg max-w-3xl mx-auto mb-8">
+      We are called not to cowardice, but to courage. Not to silence, but to proclamation. The manifold wisdom of God must be declared—
+      in homes, schools, governments, and streets. Let us rise, united, equipped, and unashamed of the gospel.
+    </p>
+    <a href="https://youtu.be/ziqIeLKH9mo?si=4bkTeEUFGn5aGUAp" target="_blank" class="bg-white text-red-600 hover:bg-gray-200 px-6 py-3 rounded-xl font-semibold">
+      Watch the Video
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+    <p>© 2025 The Church Engaged | Built on the Word of God</p>
+  </footer>
+
+</body>
+</html>
